@@ -50,7 +50,7 @@ abstract class BaseConsumer extends AmqpMember
 	 */
 	protected $qosOptions = [
 		'prefetchSize' => 0,
-		'prefetchCount' => 0,
+		'prefetchCount' => 20,
 		'global' => FALSE
 	];
 
